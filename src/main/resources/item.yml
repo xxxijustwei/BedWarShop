@@ -1,0 +1,393 @@
+铜:
+  ID: CLAY_BRICK
+  Data: 0
+  Name: '&4铜'
+  Lore:
+    - '&a可以和队友交易'
+  Price: 1
+铁:
+  ID: IRON_INGOT
+  Data: 0
+  Name: '&7铁'
+  Lore:
+    - '&a可以和队友交易'
+  Price: 8
+金:
+  ID: GOLD_INGOT
+  Data: 0
+  Name: '&6金'
+  Lore:
+    - '&a可以和队友交易'
+  Price: 20
+皮革帽子:
+  ID: LEATHER_HELMET
+  Data: 0
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 1
+  Price: 1
+皮革裤子:
+  ID: LEATHER_LEGGINGS
+  Data: 0
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 1
+  Price: 1
+皮革靴子:
+  ID: LEATHER_BOOTS
+  Data: 0
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 1
+  Price: 1
+磁力鞋:
+  ID: IRON_BOOTS
+  Data: 0
+  Name: '&a磁力鞋'
+  Lore:
+    - '&b&l穿上他吧！75%几率没有击退！'
+  Price: 68
+锁链胸甲-保护1:
+  ID: CHAINMAIL_CHESTPLATE
+  Data: 0
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 1
+  Price: 8
+锁链胸甲-保护2:
+  ID: CHAINMAIL_CHESTPLATE
+  Data: 0
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 2
+  Price: 24
+锁链胸甲-保护3:
+  ID: CHAINMAIL_CHESTPLATE
+  Data: 0
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 3
+  Price: 56
+迷之头盔:
+  ID: IRON_HELMET
+  Data: 0
+  Name: '&a迷之头盔'
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 2
+  Price: 200
+迷之盾牌:
+  ID: SHIELD
+  Data: 0
+  Name: '&a迷之盾牌'
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 2
+  Price: 200
+击退棒:
+  ID: STICK
+  Data: 0
+  Enchants:
+    KNOCKBACK: 2
+  Price: 8
+钓鱼竿:
+  ID: FISHING_ROD
+  Data: 0
+  Price: 12
+金剑-锋利1:
+  ID: GOLD_SWORD
+  Data: 0
+  Enchants:
+    DAMAGE_ALL: 1
+  Price: 8
+金剑-锋利2:
+  ID: GOLD_SWORD
+  Data: 0
+  Enchants:
+    DAMAGE_ALL: 2
+  Price: 24
+金剑-锋利3:
+  ID: GOLD_SWORD
+  Data: 0
+  Enchants:
+    DAMAGE_ALL: 3
+  Price: 56
+铁剑:
+  ID: IRON_SWORD
+  Data: 0
+  Enchants:
+    DAMAGE_ALL: 2
+    KNOCKBACK: 1
+  Price: 60
+无限之斧:
+  ID: GOLD_AXE
+  Data: 0
+  Name: '无限之斧'
+  Enchants:
+    DAMAGE_ALL: 1
+    KNOCKBACK: 1
+    DURABILITY: 1
+  Price: 300
+弓-无限1:
+  ID: BOW
+  Data: 0
+  Enchants:
+    ARROW_INFINITE: 1
+  Price: 60
+弓-无限1-力量1:
+  ID: BOW
+  Data: 0
+  Enchants:
+    ARROW_DAMAGE: 1
+    ARROW_INFINITE: 1
+  Price: 140
+弓-无限1-力量2:
+  ID: BOW
+  Data: 0
+  Enchants:
+    ARROW_DAMAGE: 2
+    ARROW_INFINITE: 1
+  Price: 260
+弓-无限1-火矢1:
+  ID: BOW
+  Enchants:
+    ARROW_FIRE: 1
+    ARROW_INFINITE: 1
+  Price: 320
+弓-无限1-火矢1-击退1:
+  ID: BOW
+  Data: 0
+  Enchants:
+    ARROW_KNOCKBACK: 1
+    ARROW_FIRE: 1
+    ARROW_INFINITE: 1
+  Price: 700
+箭:
+  ID: ARROW
+  Data: 0
+  Amount: 2
+  Price: 20
+熟猪排:
+  ID: GRILLED_PORK
+  Data: 0
+  Amount: 2
+  Price: 4
+金苹果:
+  ID: GOLDEN_APPLE
+  Data: 0
+  Price: 16
+面包:
+  ID: BREAD
+  Data: 0
+  Amount: 10
+  Price: 100
+铁镐-时运1:
+  ID: IRON_PICKAXE
+  Data: 0
+  Enchants:
+    LOOT_BONUS_BLOCKS: 1
+  Price: 4
+铁镐-效率1:
+  ID: IRON_PICKAXE
+  Data: 0
+  Enchants:
+    DIG_SPEED: 1
+  Price: 16
+铁镐-效率2:
+  ID: IRON_PICKAXE
+  Data: 0
+  Enchants:
+    DIG_SPEED: 2
+  Price: 20
+钻石搞-效率3:
+  ID: DIAMOND_PICKAXE
+  Data: 0
+  Enchants:
+    DIG_SPEED: 3
+  Price: 160
+砂石:
+  ID: SANDSTONE
+  Data: 2
+  Amount: 2
+  Price: 1
+末地石:
+  ID: ENDER_STONE
+  Data: 0
+  Price: 7
+铁块:
+  ID: IRON_BLOCK
+  Data: 0
+  Price: 24
+萤石:
+  ID: GLOWSTONE
+  Data: 0
+  Amount: 4
+  Price: 15
+玻璃:
+  ID: GLASS
+  Data: 0
+  Price: 4
+TNT:
+  ID: TNT
+  Data: 0
+  Name: '&c投掷型TNT'
+  Lore:
+    - '&a右键投掷'
+    - '&b制霸全球'
+  Price: 140
+箱子:
+  ID: CHEST
+  Data: 0
+  Price: 8
+魔影箱:
+  ID: ENDER_CHEST
+  Data: 0
+  Price: 20
+救援平台:
+  ID: BLAZE_ROD
+  Data: 0
+  Name: '&c救援平台'
+  Lore:
+    - '&c在脚底生成一个粘液块平台'
+  Price: 120
+陷阱:
+  ID: STRING
+  Data: 0
+  Name: '&7陷阱'
+  Lore:
+    - '&c你的对手踩到后会有各种负面buff'
+  Price: 24
+防护墙:
+  ID: BRICK
+  Data: 0
+  Name: '&4防护墙'
+  Lore:
+    - '&c会在你放的地方生成一个5x3的防护墙！'
+  Price: 64
+回城卷轴:
+  ID: SULPHUR
+  Data: 0
+  Name: '&f回城卷轴'
+  Lore:
+    - '&c使用这个让你回出生点，6秒内不能有任何动作'
+  Price: 56
+TNT绵羊:
+  ID: MONSTER_EGG
+  Data: 0
+  Name: '&4TNT绵羊'
+  Lore:
+    - '&4放出之后羊羊会一直跟着敌队成员'
+    - '&4直到将对方炸成灰烬'
+  Price: 200
+指南针:
+  ID: COMPASS
+  Data: 0
+  Name: '&4指南针'
+  Lore:
+    - '&4右键点击可以查看敌队成员距离'
+    - '&4你的距离,碾压必备'
+  Price: 40
+不死图腾:
+  ID: TOTEM
+  Data: 0
+  Name: '&a不死图腾'
+  Lore:
+    - '&a本服特色。免疫一次被攻击伤害造成的死亡'
+    - '&a放在手上会被动使用'
+    - '&a推荐放在左手'
+  Price: 240
+生命1:
+  ID: POTION
+  Data: 0
+  Name: '&a生命I'
+  Custom-Effects:
+    Effect: 6
+    Duration: 1
+    Amplifier: 0
+    Ambient: true
+    Has-Particles: true
+  Price: 24
+生命2:
+  ID: POTION
+  Data: 0
+  Name: '&a生命II'
+  Custom-Effects:
+    Effect: 6
+    Duration: 1
+    Amplifier: 1
+    Ambient: true
+    Has-Particles: true
+  Price: 40
+速度1:
+  ID: POTION
+  Data: 0
+  Name: '&d速度I'
+  Custom-Effects:
+    Effect: 1
+    Duration: 3600
+    Amplifier: 0
+    Ambient: true
+    Has-Particles: true
+  Price: 56
+力量1:
+  ID: POTION
+  Data: 0
+  Name: '&4力量I'
+  Custom-Effects:
+    Effect: 5
+    Duration: 3600
+    Amplifier: 0
+    Ambient: true
+    Has-Particles: true
+  Price: 20
+生命恢复1:
+  ID: POTION
+  Data: 0
+  Name: '&a生命恢复I'
+  Custom-Effects:
+    Effect: 10
+    Duration: 900
+    Amplifier: 0
+    Ambient: true
+    Has-Particles: true
+  Price: 60
+钻石镐-效率3:
+  ID: DIAMOND_PICKAXE
+  Data: 0
+  Enchants:
+    DIG_SPEED: 3
+  Price: 100
+铁头盔-保护2:
+  ID: IRON_HELMET
+  Data: 0
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 2
+  Price: 80
+铁胸甲-保护2:
+  ID: IRON_CHESTPLATE
+  Data: 0
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 2
+  Price: 96
+铁护腿-保护2:
+  ID: IRON_LEGGINGS
+  Data: 0
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 2
+  Perice: 80
+铁靴子-保护2:
+  ID: IRON_BOOTS
+  Data: 0
+  Enchants:
+    PROTECTION_ENVIRONMENTAL: 2
+  Perice: 80
+钻石剑-锋利2-击退1-火焰附加1:
+  ID: DIAMOND_SWORD
+  Data: 0
+  Enchants:
+    DAMAGE_ALL: 2
+    KNOCKBACK: 1
+    FIRE_ASPECT: 1
+  Price: 400
+弓-耐久1-力量3-击退1-火矢1-无限1:
+  ID: BOW
+  Data: 0
+  Enchants:
+    DURABILITY: 1
+    ARROW_DAMAGE: 3
+    ARROW_KNOCKBACK: 1
+    ARROW_FIRE: 1
+    ARROW_INFINITE: 1
+  Price: 300

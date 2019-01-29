@@ -1,0 +1,67 @@
+Prefix: '[BedWarShop]'
+MYSQL:
+  Enable: true
+  Host: '127.0.0.1'
+  Port: '3306'
+  Database: 'megumi'
+  Users: 'root'
+  Password: 'weiboss'
+Config:
+  Shop-Title: '&8&l[&2&l起床商店&8&l]'
+  Exp-Suffix: '&3经验: &b%exp%'
+  Edit-Title: '&8&l[&2&l编辑中...&8&l]'
+  Price-Lore:
+    - ' '
+    - '&5&l售价&7: &6%price% 经验'
+  Resource:
+    #资源经验值
+    bronze: 1
+    iron: 8
+    gold: 20
+  DeathLost: 100%
+  #玩家死亡丢失经验
+  #设置为数值来扣除固定经验,或者末尾加上百分号来按百分比扣经验
+Item:
+  Quick:
+    ID: 1
+    Data: 0
+    Name: '&8[&3快捷商店&8]'
+    Lore:
+      - '&7进入快捷商店'
+  Edit:
+    ID: 2
+    Data: 0
+    Name: '&8[&b编辑快捷商店&8]'
+    Lore:
+      - '&7点击编辑快捷商店'
+  Info:
+    ID: 3
+    Data: 0
+    Name: '&8[&2商店购买方式&8]'
+    Lore:
+      - '&a&l左键&7: &b购买一次'
+      - '&a&l右键&7: &b购买十次'
+      - '&a&lShift+左键&7: &b购买一组'
+      - '&a&lShift+右键&7: &b将商品加入快捷商店'
+  Save:
+    ID: 4
+    Data: 0
+    Name: '&8[&a保存并返回&8]'
+    Lore:
+      - '&7保存你的快捷商店'
+  EditInfo:
+    ID: 5
+    Data: 0
+    Name: '&8[&2快捷商店编辑方式&8]'
+    Lore:
+      - '&a&l右键&7: &b将商品从快捷商店删除'
+      - ' '
+      - '&c&l[&e&l!&c&l] &b你可以随意拖拽商品到其他空槽位'
+  UpPage:
+    ID: 65
+    Data: 0
+    Name: '&b&l上一页'
+  NextPage:
+    ID: 65
+    Data: 0
+    Name: '&b&l下一页'

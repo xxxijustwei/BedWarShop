@@ -1,0 +1,140 @@
+Shop:
+  ExpExchange:
+    ID: 384
+    Data: 0
+    Name: '&c经验交易'
+    Lore:
+      - '&b&l把经验兑换成资源物品'
+      - '&b&l可以用于队友之间交易'
+    Permission: bw.base
+    Commodity:
+      - 铜
+      - 铁
+      - 金
+  Armor:
+    ID: DIAMOND_CHESTPLATE
+    Data: 0
+    Name: '&c&n盔甲'
+    Lore:
+      - '&b&l用盔甲来保护自己！点我进入盔甲商店'
+    Permission: bw.base
+    Commodity:
+      - 皮革帽子
+      - 皮革外套
+      - 皮革靴子
+      - 磁力鞋
+      - 锁链胸甲-保护1
+      - 锁链胸甲-保护2
+      - 锁链胸甲-保护3
+      - 迷之头盔
+      - 迷之盾牌
+  Sword:
+    ID: DIAMOND_SWORD
+    Data: 0
+    Name: '&d&n武器'
+    Lore:
+      - '&b&l拿起你的大保健，去攻击敌人吧！'
+      - '&b&l点击我进入剑商店'
+    Permission: bw.base
+    Commodity:
+      - 击退棒
+      - 钓鱼竿
+      - 金剑-锋利1
+      - 金剑-锋利2
+      - 金剑-锋利3
+      - 铁剑
+      - 无限之斧头
+  Bow:
+    ID: 261
+    Data: 0
+    Name: '&e&n弓箭'
+    Lore:
+      - '&b&l证明你的弓法！点我进入弓箭商店'
+    Permission: bw.base
+    Commodity:
+      - 弓-无限1
+      - 弓-无限1-力量1
+      - 弓-无限1-力量2
+      - 弓-无限1-火矢1
+      - 弓-无限1-火矢1-击退1
+      - 箭
+  Food:
+    ID: GRILLED_PORK
+    Name: '&d&n食物'
+    Lore:
+      - '&b&l你饿吗？点我进入食物商店'
+    Permission: bw.base
+    Commodity:
+      - 熟猪排
+      - 金苹果
+      - 面包
+  Tool:
+    ID: DIAMOND_PICKAXE
+    Name: '&9&n工具'
+    Lore:
+      - '&b&l想撸掉方块？点我进入工具商店'
+    Permission: bw.base
+    Commodity:
+      - 铁镐-时运1
+      - 铁镐-效率1
+      - 铁镐-效率2
+      - 钻石搞-效率3
+  Block:
+    ID: SANDSTONE
+    Data: 0
+    Name: '&a&n方块'
+    Lore:
+      - '&b&l没方块搭路？点我进入方块商店'
+    Permission: bw.base
+    Commodity:
+      - 砂石
+      - 末地石
+      - 铁块
+      - 萤石
+      - 玻璃
+  Other:
+    ID: TNT
+    Name: '&6&n杂项'
+    Lore:
+    - '&b&l杂项再此！总有一些东西是你想要的！'
+    - '&b&l点我进入杂项商店'
+    Permission: bw.base
+    Commodity:
+      - TNT
+      - 箱子
+      - 魔影箱
+      - 救援平台
+      - 陷阱
+      - 防护墙
+      - 回城卷轴
+      - TNT绵羊
+      - 指南针
+      - 不死图腾
+  Drink:
+    ID: POTION
+    Name: '&a&n药水'
+    Lore:
+      - '&b&l药水强化你的各方面能力！'
+      - '&b&l点我进入药水商店'
+    Permission: bw.base
+    Commodity:
+      - 生命1
+      - 生命2
+      - 速度1
+      - 力量1
+      - 生命恢复1
+  VIP:
+    ID: 417
+    Data: 0
+    Name: '&b&lVIP专属商店QAQ'
+    Lore:
+      - '&c&l&nVIP才能打开的商店'
+    Permission: bw.vip
+    Commodity:
+      - 钻石镐-效率3
+      - 铁头盔-保护2
+      - 铁胸甲-保护2
+      - 铁护腿-保护2
+      - 铁靴子-保护2
+      - 钻石剑-锋利2-击退1-火焰附加1
+      - 弓-耐久1-力量3-击退1-火矢1-无限1

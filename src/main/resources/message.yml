@@ -1,0 +1,19 @@
+Help:
+  - '/bws open - 打开商店面板'
+AdminHelp:
+  - '/bws add <player> <exp> - 给予玩家经验'
+  - '/bws reload - 重载插件'
+Message:
+  NoPermission: '&3你没有权限: %s%'
+  BuyFailure: '&c购买失败,你没有足够的经验'
+  BuySuccess: '&a购买成功!'
+  AddQuickFailure: '&a添加失败,快捷商店已到达上限,请点击编辑按钮管理快捷商店'
+  AddQuickSuccess: '&a添加至快捷商店成功!'
+  DelQuickSuccess: '&a删除商品成功!'
+  OpenFailure: '&a你的快捷商店没有商品,无法进入编辑界面'
+  SaveSuccess: '&a快捷商店保存成功'
+  AddExp: '&b成功给 %player% 增加 %count% 经验, 目前经验为 %exp%'
+  TakeExp: '&b成功给 %player% 减少 %count% 经验, 目前经验为 %exp%'
+  SetExp: '&b成功给 %player% 设置为 %count% 经验'
+ActionBar:
+  GainExp: '&a你获得了 &6&l%exp% &a点经验'

@@ -1,0 +1,9 @@
+name: BedwarShop
+main: com.taylorswiftcn.megumi.bedwarshop.BedwarShop
+version: 1.0
+author: Wei_Boss
+softdepend: [BedwarsRel]
+
+commands:
+  bws:
+    description: show all command
