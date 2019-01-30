@@ -2,15 +2,21 @@ package com.taylorswiftcn.megumi.bedwarshop.file;
 
 import com.taylorswiftcn.megumi.bedwarshop.BedwarShop;
 import com.taylorswiftcn.megumi.bedwarshop.util.WeiUtil;
+import lombok.Getter;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;
 
 public class FileManager {
     private BedwarShop plugin;
+
+    @Getter
     private YamlConfiguration config;
+    @Getter
     private YamlConfiguration message;
+    @Getter
     private YamlConfiguration shop;
+    @Getter
     private YamlConfiguration item;
 
     public FileManager(BedwarShop plugin) {
@@ -38,21 +44,5 @@ public class FileManager {
         }
         else WeiUtil.log(String.format("File: 已加载 %s 文件", name));
         return YamlConfiguration.loadConfiguration(file);
-    }
-
-    public YamlConfiguration getConfig() {
-        return config;
-    }
-
-    public YamlConfiguration getMessage() {
-        return message;
-    }
-
-    public YamlConfiguration getShop() {
-        return shop;
-    }
-
-    public YamlConfiguration getItem() {
-        return item;
     }
 }
