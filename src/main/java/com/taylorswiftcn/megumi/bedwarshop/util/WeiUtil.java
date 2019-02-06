@@ -107,6 +107,12 @@ public class WeiUtil {
         return item;
     }
 
+    public static ItemStack getSignItem(ItemStack item) {
+        ItemStack itemStack = item.clone();
+        itemStack.setAmount(1);
+        return itemStack;
+    }
+
     public static void executionCmd(Player p, List<String> cmd) {
         for (String s : cmd) {
             String type = s.split(":")[0];

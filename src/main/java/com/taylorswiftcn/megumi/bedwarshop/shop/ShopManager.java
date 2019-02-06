@@ -17,6 +17,7 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -31,6 +32,7 @@ public class ShopManager {
     private HashMap<String, Commodity> commodity;
     private HashMap<UUID, QuickShop> quickShop;
     private HashMap<UUID, Integer> page;
+    private List<ItemStack> limitAddition;
 
     private ShopGui shopGui;
     private EditGui editGui;
@@ -42,6 +44,7 @@ public class ShopManager {
         this.commodity = new HashMap<>();
         this.quickShop = new HashMap<>();
         this.page = new HashMap<>();
+        this.limitAddition = new ArrayList<>();
 
         this.shopGui = new ShopGui(plugin);
         this.editGui = new EditGui(plugin);
@@ -76,6 +79,18 @@ public class ShopManager {
             plugin.getLogger().info(String.format("Shop: 商店 %s 已加载 %s 件商品", s, commodities.size()));
         }
         plugin.getLogger().info("========================");
+
+        for (String s : plugin.getFileManager().getConfig().getStringList("Config.LimitAddition")) {
+            ItemStack item = commodity.get(s).getItem();
+
+            ItemMeta meta = item.getItemMeta();
+            List<String> lore = meta.getLore();
+            lore = lore.subList(0, lore.size() - Config.Price_Lore.size());
+            meta.setLore(lore);
+            item.setItemMeta(meta);
+
+            limitAddition.add(item);
+        }
     }
 
     private List<Commodity> getCommodities(List<String> list) {

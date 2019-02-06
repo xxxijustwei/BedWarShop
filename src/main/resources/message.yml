@@ -16,4 +16,4 @@ Message:
   TakeExp: '&b成功给 %player% 减少 %count% 经验, 目前经验为 %exp%'
   SetExp: '&b成功给 %player% 设置为 %count% 经验'
 ActionBar:
-  GainExp: '&a你获得了 &6&l%exp% &a点经验'
+  GainExp: '&a你获得了 &6&l%exp%(+%addition%) &a点经验'

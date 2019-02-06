@@ -2,22 +2,27 @@ package com.taylorswiftcn.megumi.bedwarshop;
 
 import com.taylorswiftcn.megumi.bedwarshop.commands.MainCommand;
 import com.taylorswiftcn.megumi.bedwarshop.database.SQLManager;
+import com.taylorswiftcn.megumi.bedwarshop.exp.ExpManager;
 import com.taylorswiftcn.megumi.bedwarshop.file.FileManager;
 import com.taylorswiftcn.megumi.bedwarshop.file.Config;
 import com.taylorswiftcn.megumi.bedwarshop.file.Message;
 import com.taylorswiftcn.megumi.bedwarshop.listener.BedwarGameListener;
+import com.taylorswiftcn.megumi.bedwarshop.listener.ResourcePickupListener;
 import com.taylorswiftcn.megumi.bedwarshop.listener.gui.EditGuiListener;
 import com.taylorswiftcn.megumi.bedwarshop.listener.PlayerListener;
 import com.taylorswiftcn.megumi.bedwarshop.listener.gui.ShopGuiListener;
 import com.taylorswiftcn.megumi.bedwarshop.shop.ShopManager;
+import lombok.Getter;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class BedwarShop extends JavaPlugin {
-    private static BedwarShop instance;
-    private FileManager fileManager;
-    private ShopManager shopManager;
+
+    @Getter private static BedwarShop instance;
+    @Getter private FileManager fileManager;
+    @Getter private ShopManager shopManager;
+    @Getter private ExpManager expManager;
 
     @Override
     public void onEnable() {
@@ -33,8 +38,10 @@ public class BedwarShop extends JavaPlugin {
         instance = this;
         fileManager = new FileManager(this);
         shopManager = new ShopManager(this);
+        expManager = new ExpManager(this);
 
         fileManager.init();
+        expManager.init();
         Config.init();
         Message.init();
 
@@ -49,6 +56,7 @@ public class BedwarShop extends JavaPlugin {
 
         getCommand("bws").setExecutor(new MainCommand());
         Bukkit.getPluginManager().registerEvents(new PlayerListener(), this);
+        Bukkit.getPluginManager().registerEvents(new ResourcePickupListener(), this);
         Bukkit.getPluginManager().registerEvents(new BedwarGameListener(), this);
         Bukkit.getPluginManager().registerEvents(new ShopGuiListener(), this);
         Bukkit.getPluginManager().registerEvents(new EditGuiListener(), this);
@@ -85,17 +93,5 @@ public class BedwarShop extends JavaPlugin {
     public String getVersion() {
         String packet = Bukkit.getServer().getClass().getPackage().getName();
         return packet.substring(packet.lastIndexOf('.') + 1);
-    }
-
-    public static BedwarShop getInstance() {
-        return instance;
-    }
-
-    public FileManager getFileManager() {
-        return fileManager;
-    }
-
-    public ShopManager getShopManager() {
-        return shopManager;
     }
 }

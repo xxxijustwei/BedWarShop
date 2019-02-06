@@ -21,6 +21,21 @@ Config:
   DeathLost: 100%
   #玩家死亡丢失经验
   #设置为数值来扣除固定经验,或者末尾加上百分号来按百分比扣经验
+  ExpAddition:
+    vip1:
+      #有bedwar.vip1权限的玩家获得经验为1.5倍
+      Rate: 1.5
+      Permission: bedwar.vip1
+    vip2:
+      Rate: 1.5
+      Permission: bedwar.vip2
+    vip3:
+      Rate: 1.5
+      Permission: bedwar.vip3
+  LimitAddition:
+    - 铜
+    - 铁
+    - 金
 Item:
   Quick:
     ID: 1
