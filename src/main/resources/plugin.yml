@@ -1,6 +1,6 @@
 name: BedwarShop
 main: com.taylorswiftcn.megumi.bedwarshop.BedwarShop
-version: 1.0
+version: 1.2
 author: Wei_Boss
 softdepend: [BedwarsRel]
 

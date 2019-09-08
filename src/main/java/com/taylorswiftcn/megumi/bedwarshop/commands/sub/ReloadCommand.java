@@ -17,6 +17,8 @@ public class ReloadCommand extends WeiCommand {
         Message.init();
 
         plugin.getShopManager().reload();
+
+        CommandSender.sendMessage(Config.Prefix + "§a重载成功");
     }
 
     @Override

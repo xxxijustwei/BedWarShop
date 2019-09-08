@@ -15,5 +15,8 @@ Message:
   AddExp: '&b成功给 %player% 增加 %count% 经验, 目前经验为 %exp%'
   TakeExp: '&b成功给 %player% 减少 %count% 经验, 目前经验为 %exp%'
   SetExp: '&b成功给 %player% 设置为 %count% 经验'
+  KillObtainExp: '&a你击杀 %player% 获得了 %exp% 点经验'
+  FullInventory: '&a你的背包满了,无法购买商品'
+  AutoEquip: '&a该商品已自动装备'
 ActionBar:
   GainExp: '&a你获得了 &6&l%exp%(+%addition%) &a点经验'

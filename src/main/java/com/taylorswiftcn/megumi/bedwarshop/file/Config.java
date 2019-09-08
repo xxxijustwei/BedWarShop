@@ -27,6 +27,7 @@ public class Config {
     public static List<String> Price_Lore;
     public static HashMap<ItemStack, Integer> Resource;
     public static String DeathLost;
+    public static String KillObtain;
 
     public static void init() {
         config = BedwarShop.getInstance().getFileManager().getConfig();
@@ -52,6 +53,7 @@ public class Config {
         }
 
         DeathLost = getString("Config.DeathLost");
+        KillObtain = getString("Config.KillObtain");
     }
 
     public static ItemStack getItem(String s) {

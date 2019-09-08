@@ -19,6 +19,9 @@ public class Message {
     public static String AddExp;
     public static String TakeExp;
     public static String SetExp;
+    public static String KillObtianExp;
+    public static String FullInventory;
+    public static String AutoEquip;
 
     public static String GainExp;
 
@@ -38,6 +41,9 @@ public class Message {
         AddExp = getString("Message.AddExp");
         TakeExp = getString("Message.TakeExp");
         SetExp = getString("Message.SetExp");
+        KillObtianExp = getString("Message.KillObtainExp");
+        FullInventory = getString("Message.FullInventory");
+        AutoEquip = getString("Message.AutoEquip");
 
         GainExp = getString("ActionBar.GainExp");
 

@@ -19,4 +19,5 @@ public class MegumiShop {
         this.permission = permission;
         this.commodities = commodities;
     }
+
 }
